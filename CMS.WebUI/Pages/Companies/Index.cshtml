@@ -1,0 +1,51 @@
+    @page
+    @model CMS.WebUI.Pages.Companies.IndexModel
+    @{
+        ViewData["Title"] = "Companies";
+    }
+
+    <h1>Companies</h1>
+
+    <p>
+        <a asp-page="Create" class="btn btn-primary">Create New Company</a>
+    </p>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Tax Office</th>
+                <th>Tax Code</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Companies != null && Model.Companies.Any())
+            {
+                @foreach (var company in Model.Companies)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => company.Name)</td>
+                        <td>@Html.DisplayFor(modelItem => company.Email)</td>
+                        <td>@Html.DisplayFor(modelItem => company.Phone)</td>
+                        <td>@Html.DisplayFor(modelItem => company.TaxOffice)</td>
+                        <td>@Html.DisplayFor(modelItem => company.TaxCode)</td>
+                        <td>
+                            <a asp-page="./Edit" asp-route-id="@company.Id" class="btn btn-sm btn-info">Edit</a>
+                            <form method="post" asp-page-handler="Delete" asp-route-id="@company.Id" style="display:inline;" onsubmit="return confirm('Are you sure you want to delete this company?');">
+                                <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="6">No companies found.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
