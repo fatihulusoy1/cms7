@@ -1,0 +1,13 @@
+/* Bu stil sadece Companies/Index.cshtml sayfasını etkileyecektir */
+body[b-ba8gpqlnfq] {
+    background-color: lightcoral; /* Test için belirgin bir renk */
+}
+
+h1[b-ba8gpqlnfq] {
+    color: darkblue; /* Test için başka bir renk */
+}
+
+/* Veya Companies/Index sayfasındaki tabloya bir stil verin */
+table[b-ba8gpqlnfq] {
+    border: 2px solid purple;
+}

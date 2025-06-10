@@ -1,0 +1,13 @@
+﻿/* Bu stil sadece Companies/Index.cshtml sayfasını etkileyecektir */
+body {
+    background-color: lightcoral; /* Test için belirgin bir renk */
+}
+
+h1 {
+    color: darkblue; /* Test için başka bir renk */
+}
+
+/* Veya Companies/Index sayfasındaki tabloya bir stil verin */
+table {
+    border: 2px solid purple;
+}

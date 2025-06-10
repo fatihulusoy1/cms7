@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\CMS.Application\CMS.Application.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Pages\Companies\Create.cshtml.cs" />
+    <None Include="Pages\Companies\Edit.cshtml.cs" />
+    <None Include="Pages\Companies\Index.cshtml.cs" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>CMS.WebUI</RootNamespace>
+    <AssemblyName>CMS.WebUI</AssemblyName>
+    <EnableCSSContentFiles>true</EnableCSSContentFiles>
+  </PropertyGroup>
+
+</Project>

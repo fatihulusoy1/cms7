@@ -1,0 +1,56 @@
+@page "{id:int}"
+@model CMS.WebUI.Pages.Companies.EditModel
+@{
+    ViewData["Title"] = "Edit Company";
+}
+
+<h1>Edit Company</h1>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Company.Id" />
+
+            <div class="form-group mb-2">
+                <label asp-for="Company.Name" class="control-label"></label>
+                <input asp-for="Company.Name" class="form-control" />
+                <span asp-validation-for="Company.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-2">
+                <label asp-for="Company.Address" class="control-label"></label>
+                <input asp-for="Company.Address" class="form-control" />
+                <span asp-validation-for="Company.Address" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-2">
+                <label asp-for="Company.Phone" class="control-label"></label>
+                <input asp-for="Company.Phone" class="form-control" />
+                <span asp-validation-for="Company.Phone" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-2">
+                <label asp-for="Company.Email" class="control-label"></label>
+                <input asp-for="Company.Email" class="form-control" />
+                <span asp-validation-for="Company.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-2">
+                <label asp-for="Company.TaxCode" class="control-label"></label>
+                <input asp-for="Company.TaxCode" class="form-control" />
+                <span asp-validation-for="Company.TaxCode" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-2">
+                <label asp-for="Company.TaxOffice" class="control-label"></label>
+                <input asp-for="Company.TaxOffice" class="form-control" />
+                <span asp-validation-for="Company.TaxOffice" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-3">
+                <input type="submit" value="Save Changes" class="btn btn-success" />
+                <a asp-page="Index" class="btn btn-secondary">Back to List</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

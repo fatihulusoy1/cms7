@@ -1,0 +1,25 @@
+C:\Users\Con-06\source\repos\CMS6\CMS6\CMS.Domain\bin\Debug\net8.0\CMS.Domain.deps.json
+C:\Users\Con-06\source\repos\CMS6\CMS6\CMS.Domain\bin\Debug\net8.0\CMS.Domain.dll
+C:\Users\Con-06\source\repos\CMS6\CMS6\CMS.Domain\bin\Debug\net8.0\CMS.Domain.pdb
+C:\Users\Con-06\source\repos\CMS6\CMS6\CMS.Domain\obj\Debug\net8.0\CMS.Domain.csproj.AssemblyReference.cache
+C:\Users\Con-06\source\repos\CMS6\CMS6\CMS.Domain\obj\Debug\net8.0\CMS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Con-06\source\repos\CMS6\CMS6\CMS.Domain\obj\Debug\net8.0\CMS.Domain.AssemblyInfoInputs.cache
+C:\Users\Con-06\source\repos\CMS6\CMS6\CMS.Domain\obj\Debug\net8.0\CMS.Domain.AssemblyInfo.cs
+C:\Users\Con-06\source\repos\CMS6\CMS6\CMS.Domain\obj\Debug\net8.0\CMS.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Con-06\source\repos\CMS6\CMS6\CMS.Domain\obj\Debug\net8.0\CMS.Domain.sourcelink.json
+C:\Users\Con-06\source\repos\CMS6\CMS6\CMS.Domain\obj\Debug\net8.0\CMS.Domain.dll
+C:\Users\Con-06\source\repos\CMS6\CMS6\CMS.Domain\obj\Debug\net8.0\refint\CMS.Domain.dll
+C:\Users\Con-06\source\repos\CMS6\CMS6\CMS.Domain\obj\Debug\net8.0\CMS.Domain.pdb
+C:\Users\Con-06\source\repos\CMS6\CMS6\CMS.Domain\obj\Debug\net8.0\ref\CMS.Domain.dll
+C:\Users\Con-06\source\repos\CMS6\YEdek\20250609 - Çalışıyor. Şirket site\CMS.Domain\bin\Debug\net8.0\CMS.Domain.deps.json
+C:\Users\Con-06\source\repos\CMS6\YEdek\20250609 - Çalışıyor. Şirket site\CMS.Domain\bin\Debug\net8.0\CMS.Domain.dll
+C:\Users\Con-06\source\repos\CMS6\YEdek\20250609 - Çalışıyor. Şirket site\CMS.Domain\bin\Debug\net8.0\CMS.Domain.pdb
+C:\Users\Con-06\source\repos\CMS6\YEdek\20250609 - Çalışıyor. Şirket site\CMS.Domain\obj\Debug\net8.0\CMS.Domain.csproj.AssemblyReference.cache
+C:\Users\Con-06\source\repos\CMS6\YEdek\20250609 - Çalışıyor. Şirket site\CMS.Domain\obj\Debug\net8.0\CMS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Con-06\source\repos\CMS6\YEdek\20250609 - Çalışıyor. Şirket site\CMS.Domain\obj\Debug\net8.0\CMS.Domain.AssemblyInfoInputs.cache
+C:\Users\Con-06\source\repos\CMS6\YEdek\20250609 - Çalışıyor. Şirket site\CMS.Domain\obj\Debug\net8.0\CMS.Domain.AssemblyInfo.cs
+C:\Users\Con-06\source\repos\CMS6\YEdek\20250609 - Çalışıyor. Şirket site\CMS.Domain\obj\Debug\net8.0\CMS.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Con-06\source\repos\CMS6\YEdek\20250609 - Çalışıyor. Şirket site\CMS.Domain\obj\Debug\net8.0\CMS.Domain.dll
+C:\Users\Con-06\source\repos\CMS6\YEdek\20250609 - Çalışıyor. Şirket site\CMS.Domain\obj\Debug\net8.0\refint\CMS.Domain.dll
+C:\Users\Con-06\source\repos\CMS6\YEdek\20250609 - Çalışıyor. Şirket site\CMS.Domain\obj\Debug\net8.0\CMS.Domain.pdb
+C:\Users\Con-06\source\repos\CMS6\YEdek\20250609 - Çalışıyor. Şirket site\CMS.Domain\obj\Debug\net8.0\ref\CMS.Domain.dll
