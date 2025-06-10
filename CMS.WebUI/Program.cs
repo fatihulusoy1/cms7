@@ -2,11 +2,11 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
-
-// ApiBaseUrl config ayarý (appsettings.json veya ortam deðiþkeninden okunuyor)
+v
+// ApiBaseUrl config ayarÃ½ (appsettings.json veya ortam deÃ°iÃ¾keninden okunuyor)
 string apiBaseUrl = builder.Configuration["ApiBaseUrl"] ?? "https://localhost:5001/"; // Default fallback
 
-// HttpClient ve PostService kaydý
+// HttpClient ve PostService kaydÃ½
 builder.Services.AddHttpClient<CMS.Application.Services.PostService>(client =>
 {
     client.BaseAddress = new Uri(apiBaseUrl);
